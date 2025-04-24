@@ -1,4 +1,7 @@
 {
-  "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm run build"
+  "functions": {
+    "app/seed/route.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
